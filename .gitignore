@@ -1,0 +1,46 @@
+# Editors
+/.idea
+/.fleet
+/.vscode
+
+*.DS_Store
+.env
+*.log
+Thumbs.db
+storage/*.key
+Homestead.yaml
+Homestead.json
+/.vagrant
+
+/logs
+
+# PHP
+
+/vendor
+# Build data
+/build/
+
+# Composer PHAR
+/composer.phar
+
+/app/tmp/*
+/app/Config/core.php
+/app/Config/database.php
+/vendors/*
+.phpunit.cache
+.phpunit.result.cache
+
+/composer.lock
+
+# Code sniffer
+.php_cs
+.php_cs.cache
+.php-cs-fixer.cache
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Email spool folder
+/app/spool/*
