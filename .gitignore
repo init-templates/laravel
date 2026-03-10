@@ -33,7 +33,6 @@ Homestead.json
 .phpunit.cache
 .phpunit.result.cache
 
-/composer.lock
 /public/build
 /public/hot
 /public/storage
